@@ -42,7 +42,7 @@ class VectorizeModel:
 if __name__ == "__main__":
     import time,random
     from tqdm import tqdm
-    vec_model = VectorizeModel('/Users/wht/Desktop/ydkj/code/NLP/Intent_re/simcse-chinese-roberta-wwm-ext')
+    vec_model = VectorizeModel('Path to your vector model')
     print(vec_model.predict_vec("什么人不能吃花生"))
     # vec_model.predict_vec("你好啊")
     # vec_model.predict_vec("你好啊")
